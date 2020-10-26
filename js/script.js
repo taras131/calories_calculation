@@ -5,7 +5,7 @@ const result = document.querySelector(`.calculating__result span`),
 let height,weight,age,total,sex,ratio;
 if(localStorage.getItem(`sex`)){
     sex = localStorage.getItem(`sex`);
-    ratio = localStorage.getItem(`ratio`);
+  
 }else{
     sex="famale";
     localStorage.setItem(`sex`,`famale`);
