@@ -14,7 +14,7 @@ if(localStorage.getItem(`ratio`)){
     ratio = localStorage.getItem(`ratio`);
 }else{
     ratio = 1.375;
-    localStorage.setItem(`sex`, 1.375);
+    localStorage.setItem(`ratio`, 1.375);
 }
 
 function initLocalSetting(selector) {
